@@ -1,0 +1,18 @@
+### Menampilkan data
+GET http://localhost:8000/api/posts
+
+### Menambahkan data ke database
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+
+{
+    "image": "campuscoder-poster-2.png",
+    "title": "Belajar Rest API Laravel 10",
+    "content": "Belajar Rest API Laravel 10"
+}
+
+### Menampilkan detail data post
+GET http://localhost:8000/api/posts/1
+
+### Menghapus data dari database
+DELETE http://localhost:8000/api/posts/1
